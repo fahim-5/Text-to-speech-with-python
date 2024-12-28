@@ -10,6 +10,7 @@ def text_to_speech():
     # Speak the text
     engine.say(text)
     engine.runAndWait()
+    
 
 if __name__ == "__main__":
     text_to_speech()
